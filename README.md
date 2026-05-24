@@ -1,3 +1,35 @@
 # csgo_items_game_editor
 PY program, can create collections and new skins. Only for CS:GO from 2023
-Official user manual. This tool allows you to safely inject custom skin nodes and collections directly into the client configuration file for emulator inventory systems.Prerequisites & SetupTarget File: You need a valid items_game.txt file (usually located in csgodiirectory/csgo/scripts/items).Backup First: Always create a backup copy of your original items_game.txt before applying any modifications.Step 1: Load the Configuration FileLaunch the application. Click the Load items_game.txt button at the top of the left panel.Select your file in the file explorer. The terminal log on the right will confirm if the file was loaded successfully. Step 2: Configure Your Weapon Skin (Skin Editor Tab) Select Target Weapon: Use the search bar to filter weapons (e.g., type ak47). Select the desired base weapon from the dropdown menu below it. Select Paint Kit:Use the search bar to find the visual pattern you want to apply (e.g., fade or asimov). Choose the pattern from the dropdown menu. Advanced Emulator Inventory Nodes (Optional):Check the box "Create Custom ID Node" if you are configuring a custom server or emulator. Target Unique Skin ID: Enter a unique identification number (e.g., 10089).New Unique Technical Paint Name: Enter a strict technical identifier (e.g., cz75_sapphire_custom). Step 3: Set Rarity and Collection AssignmentSelect Rarity Tier: Choose the visual tier/color frame for the weapon item (from Consumer Grade up to Covert).Assign to Target Collection Set: Search and select the collection drop group where this item belongs (e.g., set_community_1). Step 4: Inject Code BlocksClick the large Inject Config Blocks button at the bottom of the editor.Monitor the Live Operation Terminal Log on the right side of the screen.Look for the Success validation prompt to ensure the memory structures were perfectly aligned and written. Terminal Log Status Identifiers [INFO] — System parameters and structural operations.[SUCCESS] — Injection completed without syntax breakdown.[ERROR] — Missing fields, duplicate IDs, or protected write access.
+
+# SOURCE-NET Config Injector
+
+An automation utility designed for safely editing and injecting structured blocks into nested configuration files (`items_game.txt`). This tool streamlines array management, hierarchy validation, and structural injection for developers working with custom data environments.
+
+The utility establishes a direct relationship between asset collections and parent deployment bundles. By mapping the items directly to the targeted set, it bypasses redundant structural layers, ensuring optimal layout rendering within the UI rendering engine and preventing indexing or fallback display bugs.
+
+---
+
+## Requirements
+
+* Python 3.x
+* No external dependencies required (built entirely using the standard Tkinter graphical library).
+
+---
+
+---
+
+## Usage Guide
+
+### Step 1: File Selection
+1. Launch the application from your terminal: `python main.py`
+2. Navigate to the first tab labeled **1. File**.
+3. Click **Select File** and target your configuration file. The application will validate the file structure and maintain the path lock for subsequent operations.
+
+### Step 2: Asset Definition Injection
+1. Navigate to the second tab labeled **2. Inject Skins**.
+2. Input the technical identifier of the custom modification in the **Target Loot Name** field.
+3. Specify the base weapon class system in the **Weapon** field.
+4. Input the destination group identifier in the **Collection Name** field.
+5. Click **Inject Skin** to append the entry directly into the specified data block.
+
+---
