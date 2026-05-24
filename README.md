@@ -1,7 +1,7 @@
 # csgo_items_game_editor
 PY program, can create collections and new skins. Only for CS:GO from 2023
 
-# SOURCE-NET Config Injector
+# CSGO ITEMS GAME EDITOR
 
 An automation utility designed for safely editing and injecting structured blocks into nested configuration files (`items_game.txt`). This tool streamlines array management, hierarchy validation, and structural injection for developers working with custom data environments.
 
