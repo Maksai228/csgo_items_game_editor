@@ -16,8 +16,6 @@ The utility establishes a direct relationship between asset collections and pare
 
 ---
 
----
-
 ## Usage Guide
 
 ### Step 1: File Selection
