@@ -19,7 +19,7 @@ The utility establishes a direct relationship between asset collections and pare
 ## Usage Guide
 
 ### Step 1: File Selection
-1. Launch the application from your terminal: `python main.py`
+1. Launch the application from your terminal: `py items_game_editor.py`
 2. Navigate to the first tab labeled **1. File**.
 3. Click **Select File** and target your configuration file. The application will validate the file structure and maintain the path lock for subsequent operations.
 
